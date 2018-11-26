@@ -1,0 +1,12 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "import"
+    ],
+    "env": {
+        "mocha": true
+    },
+    "globals": {
+        "fetch": true
+    }
+}

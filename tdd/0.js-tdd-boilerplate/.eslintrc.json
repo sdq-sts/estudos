@@ -1,0 +1,9 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "import"
+    ],
+    "env": {
+        "mocha": true
+    }
+}
