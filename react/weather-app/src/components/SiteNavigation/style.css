@@ -1,0 +1,22 @@
+.site-navigation {
+
+}
+
+.site-navigation__list {
+  display: flex;
+  padding: 1em 2em;
+  list-style: none;
+}
+
+.site-navigation__item {
+  margin: 0 1rem;
+}
+
+.site-navigation--active {
+  color: red;
+}
+
+
+
+
+
