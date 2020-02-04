@@ -1,6 +1,6 @@
 import React from 'react';
-import WeatherForm from '../components/WeatherForm'
-import WeatherMessage from '../components/WeatherMessage'
+import WeatherForm from '@components/WeatherForm'
+import WeatherMessage from '@components/WeatherMessage'
 
 function Main() {
 
