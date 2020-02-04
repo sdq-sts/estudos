@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './style.css'
 
 function SiteNavigation() {
@@ -7,15 +7,15 @@ function SiteNavigation() {
     <nav className="site-navigation">
       <ul className="site-navigation__list">
         <li className="site-navigation__item">
-          <Link to="/" >Get Weather</Link>
+          <NavLink exact to="/" activeClassName="site-navigation--active">Get Weather</NavLink>
         </li>
 
         <li className="site-navigation__item">
-          <Link to="/about" >About</Link>
+          <NavLink to="/about" activeClassName="site-navigation--active">About</NavLink>
         </li>
 
         <li className="site-navigation__item">
-          <Link to="/examples" >Examples</Link>
+          <NavLink to="/examples" activeClassName="site-navigation--active">Examples</NavLink>
         </li>
       </ul>
     </nav>
