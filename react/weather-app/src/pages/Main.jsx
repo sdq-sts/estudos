@@ -1,8 +1,7 @@
 import React from 'react';
-// import { useRouteMatch } from "react-router-dom";
+import WeatherForm from '../components/WeatherForm/'
 
 function Main() {
-  // let { path, url } = useRouteMatch();
 
   return (
     <div className="App">
@@ -10,6 +9,8 @@ function Main() {
         <p>
           Main page
         </p>
+
+        <WeatherForm />
       </header>
     </div>
   );

@@ -3,6 +3,7 @@ import SiteNavigation from './components/SiteNavigation/'
 import Main from './pages/Main'
 import About from './pages/About'
 import Examples from './pages/Examples'
+import './App.scss'
 import {
   BrowserRouter as Router,
   Switch,
