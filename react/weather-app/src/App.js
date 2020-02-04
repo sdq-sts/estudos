@@ -1,8 +1,8 @@
 import React from 'react';
 import SiteNavigation from './components/SiteNavigation/'
-import Main from './pages/Main'
-import About from './pages/About'
-import Examples from './pages/Examples'
+import Main from './containers/Main'
+import About from './containers/About'
+import Examples from './containers/Examples'
 import './App.scss'
 import {
   BrowserRouter as Router,
