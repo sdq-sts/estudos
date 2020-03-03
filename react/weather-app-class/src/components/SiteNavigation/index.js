@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
+import { connect } from 'react-redux'
 import './style.scss'
 
 class SiteNavigation extends Component {
@@ -18,10 +19,20 @@ class SiteNavigation extends Component {
           <li className="site-navigation__item">
             <NavLink to="/examples" activeClassName="site-navigation--active">Examples</NavLink>
           </li>
+
+          <li className="site-navigation__item">
+            Number of counter is { this.props.ctr }
+          </li>
         </ul>
       </nav>
     )
   }
 }
 
-export default SiteNavigation;
+const mapStateToProps = state => {
+  return {
+    ctr: state.counter
+  }
+}
+
+export default connect(mapStateToProps)(SiteNavigation);
