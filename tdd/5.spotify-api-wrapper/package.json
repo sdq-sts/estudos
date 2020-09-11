@@ -50,7 +50,7 @@
     "rimraf": "^2.6.1"
   },
   "dependencies": {
-    "node-fetch": "^2.0.0",
+    "node-fetch": "^2.6.1",
     "sinon": "^4.3.0",
     "sinon-chai": "^2.14.0",
     "sinon-stub-promise": "^4.0.0"
